@@ -43,12 +43,6 @@ class ViewController: UIViewController {
     func setStory(_ StoryNumber: Int) {
         // TODO Step 3: Set the text for the storyTextView, topButton, bottomButton, and to T1_Story, T1_Ans1, and T1_Ans2
         
-//        // -- Load the first story
-//        storyTextView.text = story1
-//        topButton.setTitle(answer1a, for: .normal)
-//        bottomButton.setTitle(answer1b, for: .normal)
-        
-
         if (StoryNumber == 2)
         {
             storyTextView.text = story2
@@ -66,9 +60,6 @@ class ViewController: UIViewController {
         else if (StoryNumber == 4)
         {
             storyTextView.text = story4
-//            topButton.setTitle(answer4a, for: .normal)
-//            bottomButton.setTitle(answer4b, for: .normal)
-            //topButton.isHidden = true
             topButton.setTitle("Restart???", for: .normal)
             bottomButton.isHidden = true
             currentStory = 99
@@ -76,9 +67,6 @@ class ViewController: UIViewController {
         else if (StoryNumber == 5)
         {
             storyTextView.text = story5
-//            topButton.setTitle(answer5a, for: .normal)
-//            bottomButton.setTitle(answer5b, for: .normal)
-            //topButton.isHidden = true
             topButton.setTitle("Restart???", for: .normal)
             bottomButton.isHidden = true
             currentStory = 99
@@ -86,9 +74,6 @@ class ViewController: UIViewController {
         else if (StoryNumber == 6)
         {
             storyTextView.text = story6
-//            topButton.setTitle(answer6a, for: .normal)
-//            bottomButton.setTitle(answer6b, for: .normal)
-            //topButton.isHidden = true
             topButton.setTitle("Restart???", for: .normal)
             bottomButton.isHidden = true
             currentStory = 99
@@ -113,7 +98,6 @@ class ViewController: UIViewController {
         
         
         setStory(currentStory)
-        
     }
 
     
@@ -158,7 +142,6 @@ class ViewController: UIViewController {
             if (buttonSelected == 1)
             {
                 setStory(6)
-                
             }
             else
             {
@@ -169,14 +152,6 @@ class ViewController: UIViewController {
         {
             setStory(1)
         }
-        
-        
-        
-    
-
-        
-        // TODO Step 6: Modify the IF-Statement to complete the story
-        
     
     }
     
